@@ -1,0 +1,51 @@
+.navbar {
+  width: 100%;
+  /* height: 76px; */
+  background-color: #FFFFFF;
+  display: flex;
+  /* justify-content: center; */
+  border-bottom: 1px solid #f0f0f0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.Navbar-container {
+  width: stretch;
+ 
+}
+.a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.logo-section {
+  padding: 20px 60px;
+  /* width: 189.15px; */
+  /* height: 60px;  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+
+}
+
+.logo-img {
+ width: 189.1525421142578;
+height: 60;
+
+opacity: 1;
+top: 8px;
+left: 124px;
+
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  width: 201px;
+  height: 36px;
+  
+}
+
