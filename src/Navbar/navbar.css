@@ -18,6 +18,7 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-family: Inter;
 }
 
 .logo-section {
@@ -46,6 +47,7 @@ left: 124px;
   align-items: center;
   width: 201px;
   height: 36px;
+  font-family: Inter;
   
 }
 
