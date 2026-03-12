@@ -22,7 +22,7 @@ const Portfolio = () => {
           <p>
            Crypto apps are mobile or web applications designed to facilitate various activities related to cryptocurrencies. These apps allow users to buy, sell, trade, and manage their digital assets securely. Features often include real-time price tracking.
           </p>
-          <span>View Our Portfolio →</span>
+          <span>View Our Project →</span>
         </div>
       </div>
 
@@ -34,10 +34,10 @@ const Portfolio = () => {
           <p>
             A dealing application is a software platform designed to facilitate trading and transactions in financial markets. It provides users with tools for executing buy and sell orders, monitoring market conditions, analyzing financial data, and managing portfolios.
           </p>
-          <span>View Our Portfolio →</span>
+          <span>View Our Project →</span>
         </div>
 
-        <div className="portfolio-image">
+        <div className="portfolioo-image">
      
           <img src="https://res.cloudinary.com/daup99ghe/image/upload/v1773221764/Group_7_yyiogq.png" alt="app" />
         </div>

@@ -1,0 +1,118 @@
+.whyChooseSection {
+  background: #f5f7fb;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+
+.header h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.header p1 {
+  max-width: 600px;
+  margin: auto;
+  
+  font-size: 22px;
+}
+
+.header p2 {
+  font-size: 24px;
+  
+  margin-top: 15px;
+}
+
+.grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  text-align: left;
+  transition: 0.3s;
+  height:250px
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-color: #3666FD;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  margin-top: 60px;
+  font-weight: 300;
+
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+  font-weight: 100;
+}
+
+.ctta {
+  background: #18225A;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.ctta p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 100;
+  
+}
+
+.ctta button {
+  background: #2f6df6;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.grid{
+  margin-top:50px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+  gap:20px;
+}
+@media screen and (max-width:900px){
+  .grid{
+    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+  }
+  .header h2{
+    font-size:22px;
+  }
+  .header p1{
+    font-size:18px;
+  } 
+  .header p2{
+    font-size:20px;
+  }
+  .ctta p{
+    font-size:18px;
+  }
+
+  .ctta button{
+    padding:10px 25px;
+    font-size:14px;
+  }
+  
+}

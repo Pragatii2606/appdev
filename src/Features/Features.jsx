@@ -36,8 +36,11 @@ export default function FeaturesSection() {
       </div>
 
       <div className="features-cta">
-        <p>Customized Mobile App Development Services For Your Business Goals</p>
-        <button>Get Started</button>
+        <p>
+   Customized <span className="highlight">Mobile App Development </span> 
+  Services For Your Business Goals
+</p>
+<button>Get Started</button>
       </div>
     </section>
   );

@@ -7,7 +7,8 @@ import Service1 from './Service1/Service1';
 import Service2 from './Service2/Service2';
 import Portfolio from './Portfolio/Portfolio';
 import Features from './Features/Features'
-
+import Selection from './Selection/Selection';
+import Footer from './Footer/Footer';
 
 function App (){
   return (<div className ="App">
@@ -19,7 +20,9 @@ function App (){
       <Service2/>
       <Portfolio/>
       <Features/>
+      <Selection/>
     </main>
+    <Footer />
   </div>
   )
 }

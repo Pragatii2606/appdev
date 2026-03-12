@@ -23,7 +23,7 @@ function FeaturesCTA() {
       
       <div className="featuree-grid">
         {features.map((item, index) => (
-          <div className="featuere-card" key={index}>
+          <div className="featuree-card" key={index}>
             <img src={item.img} alt={item.title} />
 
             
