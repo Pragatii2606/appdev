@@ -37,7 +37,7 @@ const Portfolio = () => {
           <span>View Our Project →</span>
         </div>
 
-        <div className="portfolioo-image">
+        <div className="portfolio-image">
      
           <img src="https://res.cloudinary.com/daup99ghe/image/upload/v1773221764/Group_7_yyiogq.png" alt="app" />
         </div>
